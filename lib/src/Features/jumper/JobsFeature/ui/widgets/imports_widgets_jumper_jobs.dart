@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:jumper/src/Bloc/models/jumper_job_model.dart';
+import 'package:jumper/src/Core/constants/decorations/app_physics.dart';
+import 'package:jumper/src/Core/constants/strings/assets.dart';
+import 'package:jumper/src/Core/services/network/request_status.dart';
+import 'package:jumper/src/Features/jumper/JumperHomeFeature/bloc/controller/jumper_jobs_controller.dart';
+import 'package:jumper/src/Features/jumper/JumperHomeFeature/ui/widgets/import_widgets_j_home.dart';
+import 'package:jumper/src/Ui/animation/animated_wrapper.dart';
+import 'package:jumper/src/Ui/appbars/default_appbar.dart';
+import 'package:jumper/src/Ui/badges/message_badge.dart';
+import 'package:jumper/src/Ui/badges/notification_badge.dart';
+import 'package:jumper/src/Ui/builders/conditional_builder.dart';
+import 'package:jumper/src/Ui/builders/empty_page_builder.dart';
+import 'package:jumper/src/Ui/buttons/main_section_button.dart';
+import 'package:jumper/src/Ui/cards/jumper_accepted_job_card.dart';
+import 'package:jumper/src/Ui/cards/jumper_job_offer_card.dart';
+import 'package:jumper/src/Ui/loading/loading_box.dart';
+
+part 'appbar_jumper_jobs.dart';
+part 'empty_current_jobs_builder.dart';
+part 'jumper_accepted_job_builder.dart';
+part 'jumper_job_offers_builder.dart';

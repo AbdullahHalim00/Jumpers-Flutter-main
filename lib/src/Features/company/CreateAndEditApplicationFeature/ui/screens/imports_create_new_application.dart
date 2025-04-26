@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:jumper/src/Bloc/models/company_job_model.dart';
+import 'package:jumper/src/Core/constants/colors/app_colors.dart';
+import 'package:jumper/src/Core/constants/strings/assets.dart';
+import 'package:jumper/src/Core/services/network/request_status.dart';
+import 'package:jumper/src/Core/utils/extensions.dart';
+import 'package:jumper/src/Core/utils/validator.dart';
+import 'package:jumper/src/Features/company/CreateAndEditApplicationFeature/bloc/controller/add_job_controller.dart';
+import 'package:jumper/src/Features/company/CreateAndEditApplicationFeature/bloc/controller/fetch_add_jop_info_controller.dart';
+import 'package:jumper/src/Features/company/CreateAndEditApplicationFeature/bloc/controller/fetch_languages_controller.dart';
+import 'package:jumper/src/Features/company/CreateAndEditApplicationFeature/bloc/controller/fetch_services_controller.dart';
+import 'package:jumper/src/Features/company/CreateAndEditApplicationFeature/bloc/controller/fetch_skills_controller.dart';
+import 'package:jumper/src/Features/company/CreateAndEditApplicationFeature/bloc/controller/fetch_work_time_type_controller.dart';
+import 'package:jumper/src/Features/company/CreateAndEditApplicationFeature/bloc/controller/fetch_work_type_controller.dart';
+import 'package:jumper/src/Features/company/CreateAndEditApplicationFeature/bloc/controller/fetch_work_types_controller.dart';
+import 'package:jumper/src/Ui/TextFields/text_field_default.dart';
+import 'package:jumper/src/Ui/animation/animated_wrapper.dart';
+import 'package:jumper/src/Ui/appbars/default_appbar.dart';
+import 'package:jumper/src/Ui/buttons/custom_outlined_button.dart';
+import 'package:jumper/src/Ui/buttons/custom_rounded_button.dart';
+import 'package:jumper/src/Ui/listview/custom_listview.dart';
+import 'package:jumper/src/Ui/scaffold/default_scaffold.dart';
+import 'package:jumper/src/Ui/spaces_and_dividers/spaces.dart';
+import 'package:jumper/src/Ui/text/custom_text.dart';
+
+import '../../../../../Bloc/controllers/fetch_cities_controller.dart';
+
+part 'complete_application_screen.dart';
+part 'create_new_application_screen.dart';

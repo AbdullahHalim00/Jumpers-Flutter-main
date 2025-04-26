@@ -1,0 +1,50 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:jumper/src/Bloc/models/employee_model.dart';
+import 'package:jumper/src/Bloc/models/pop_up_model.dart';
+import 'package:jumper/src/Core/constants/colors/app_colors.dart';
+import 'package:jumper/src/Core/constants/decorations/app_Insets.dart';
+import 'package:jumper/src/Core/constants/decorations/app_physics.dart';
+import 'package:jumper/src/Core/constants/strings/assets.dart';
+import 'package:jumper/src/Core/resources/data_state.dart';
+import 'package:jumper/src/Core/services/network/request_status.dart';
+import 'package:jumper/src/Core/utils/arabic_num_extension.dart';
+import 'package:jumper/src/Core/utils/extensions.dart';
+import 'package:jumper/src/Core/utils/utils.dart';
+import 'package:jumper/src/Core/utils/validator.dart';
+import 'package:jumper/src/Features/company/EmployeesFeature/bloc/controller/employee_term_exetension_controller.dart';
+import 'package:jumper/src/Features/company/employee_details/bloc/controller/employee_details_controller.dart';
+import 'package:jumper/src/Features/company/employee_details/bloc/controller/fetch_refusing_reasons_controller.dart';
+import 'package:jumper/src/Features/company/employee_details/bloc/controller/finish_employee_work_controller.dart';
+import 'package:jumper/src/Features/shared/ChatsFeature/bloc/controller/chats_controller.dart';
+import 'package:jumper/src/Ui/BottomSheet/widgets/single_choice_row_form.dart';
+import 'package:jumper/src/Ui/TextFields/text_field_default.dart';
+import 'package:jumper/src/Ui/builders/conditional_builder.dart';
+import 'package:jumper/src/Ui/builders/unavailable_builder.dart';
+import 'package:jumper/src/Ui/buttons/button_default.dart';
+import 'package:jumper/src/Ui/buttons/custom_rounded_button.dart';
+import 'package:jumper/src/Ui/buttons/custom_text_button.dart';
+import 'package:jumper/src/Ui/list_tiles/dotted_info_tile.dart';
+import 'package:jumper/src/Ui/loading/loading.dart';
+import 'package:jumper/src/Ui/loading/loading_box.dart';
+import 'package:jumper/src/Ui/pop_up/default_pop_up_button.dart';
+import 'package:jumper/src/Ui/sheets/app_Sheet.dart';
+import 'package:jumper/src/Ui/spaces_and_dividers/spaces.dart';
+import 'package:jumper/src/Ui/text/custom_text.dart';
+
+import '../../../../../Ui/snackbar/app_snacks.dart';
+import '../../../EmployeesFeature/bloc/controller/fav_employee_controller.dart';
+import '../../../EmployeesFeature/bloc/controller/my_fav_employees_controller.dart';
+
+part 'BuildExtendPeriodSuccessDialog.dart';
+part 'BuildTerminateSheet.dart';
+part 'BuildTerminationDialog.dart';
+part 'BuildWorkDaysSheet.dart';
+part 'SheetExtendPeriodSheet.dart';
+part 'SheetSelectCauseName.dart';
+part 'activities_record_builder.dart';
+part 'employee_details_Header.dart';
+part 'employee_details_options.dart';
+
+//

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "267632324509",
+    "project_id": "jumpers-project",
+    "storage_bucket": "jumpers-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267632324509:android:8e84db97d57f670e9ec974",
+        "android_client_info": {
+          "package_name": "com.jumpers.ksa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267632324509-07g1fgh1h01fidk5t9q6rjju1catdf4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz3Jan92p9-g3iBatalkK25NmBZ1OvQhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267632324509-07g1fgh1h01fidk5t9q6rjju1catdf4b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "267632324509-37j7gf06q4bg3l5ip4hhef1j22b6oeq0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jumpers.ksa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

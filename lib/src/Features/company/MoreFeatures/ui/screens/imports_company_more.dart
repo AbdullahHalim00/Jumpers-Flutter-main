@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:jumper/src/Core/constants/colors/app_colors.dart';
+import 'package:jumper/src/Core/constants/decorations/app_durations.dart';
+import 'package:jumper/src/Core/constants/strings/assets.dart';
+import 'package:jumper/src/Core/services/network/request_status.dart';
+import 'package:jumper/src/Core/utils/extensions.dart';
+import 'package:jumper/src/Core/utils/storage_util.dart';
+import 'package:jumper/src/Core/utils/validator.dart';
+import 'package:jumper/src/Features/company/HelpCenterFeature/ui/screens/company_help_center_imports.dart';
+import 'package:jumper/src/Features/company/MoreFeatures/Logic/bloc/change_account_info_controller.dart';
+import 'package:jumper/src/Features/company/MoreFeatures/Logic/bloc/company_more_controller.dart';
+import 'package:jumper/src/Features/company/MoreFeatures/ui/screens/change_admin_info.dart';
+import 'package:jumper/src/Features/company/MoreFeatures/ui/screens/change_business_owner_info..dart';
+import 'package:jumper/src/Features/company/MoreFeatures/ui/screens/change_organization_info.dart';
+import 'package:jumper/src/Features/company/MoreFeatures/ui/screens/change_password_screen.dart';
+import 'package:jumper/src/Features/company/MoreFeatures/ui/screens/my_files_screen.dart';
+import 'package:jumper/src/Features/company/MoreFeatures/ui/widgets/imports_widgets_company_more.dart';
+import 'package:jumper/src/Features/shared/LanguageFeature/ui/screens/language_screen.dart';
+import 'package:jumper/src/Features/shared/NotificationsFeature/bloc/controller/change_notifications_controller.dart';
+import 'package:jumper/src/Features/shared/welcome/ui/screens/imports_welcome.dart';
+import 'package:jumper/src/Ui/TextFields/text_field_default.dart';
+import 'package:jumper/src/Ui/adaptive/adaptive_switch.dart';
+import 'package:jumper/src/Ui/animation/animated_wrapper.dart';
+import 'package:jumper/src/Ui/appbars/default_appbar.dart';
+import 'package:jumper/src/Ui/builders/unavailable_builder.dart';
+import 'package:jumper/src/Ui/buttons/button_default.dart';
+import 'package:jumper/src/Ui/listview/custom_listview.dart';
+import 'package:jumper/src/Ui/scaffold/default_scaffold.dart';
+
+import '../../../../shared/ContactUsScreen/ui/screens/contact_us_screen.dart';
+import 'account_info_screen.dart';
+
+part 'account_info_screen.dart';
+part 'company_more_screen.dart';

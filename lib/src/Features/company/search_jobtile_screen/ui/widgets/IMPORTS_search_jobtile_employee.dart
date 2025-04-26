@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:jumper/src/Bloc/models/company_job_model.dart';
+import 'package:jumper/src/Core/constants/colors/app_colors.dart';
+import 'package:jumper/src/Core/constants/decorations/app_Insets.dart';
+import 'package:jumper/src/Core/constants/decorations/app_physics.dart';
+import 'package:jumper/src/Core/constants/strings/assets.dart';
+import 'package:jumper/src/Core/utils/extensions.dart';
+import 'package:jumper/src/Features/company/search_jobtile_screen/bloc/controller/search_jobtile_controller.dart';
+import 'package:jumper/src/Ui/animation/animated_wrapper.dart';
+import 'package:jumper/src/Ui/builders/conditional_builder.dart';
+import 'package:jumper/src/Ui/builders/empty_page_builder.dart';
+import 'package:jumper/src/Ui/buttons/custom_text_button.dart';
+import 'package:jumper/src/Ui/cards/job_application_card.dart';
+import 'package:jumper/src/Ui/list_tiles/simple_icon_label_tile.dart';
+import 'package:jumper/src/Ui/text/custom_text.dart';
+
+part 'empty_search_jobtile_builder.dart';
+part 'latest_search_builder.dart';
+part 'search_jobtile_body_builder.dart';

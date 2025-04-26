@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>267632324509-37j7gf06q4bg3l5ip4hhef1j22b6oeq0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.267632324509-37j7gf06q4bg3l5ip4hhef1j22b6oeq0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDmbW6BIB16F9LsAV7zj3Xw_peVlyNMnNk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>267632324509</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jumpers.ksa</string>
+	<key>PROJECT_ID</key>
+	<string>jumpers-project</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jumpers-project.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:267632324509:ios:88f08d9335e62dd49ec974</string>
+</dict>
+</plist>

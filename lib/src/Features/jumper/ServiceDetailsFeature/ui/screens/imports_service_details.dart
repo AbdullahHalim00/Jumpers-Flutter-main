@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:jumper/src/Bloc/models/jumper_job_model.dart';
+import 'package:jumper/src/Core/constants/colors/app_colors.dart';
+import 'package:jumper/src/Core/constants/decorations/app_physics.dart';
+import 'package:jumper/src/Core/constants/strings/assets.dart';
+import 'package:jumper/src/Core/utils/extensions.dart';
+import 'package:jumper/src/Features/jumper/BaseFeature/ui/screens/imports_jumper_base%20.dart';
+import 'package:jumper/src/Features/jumper/JumperHomeFeature/bloc/controller/company_details_controller.dart';
+import 'package:jumper/src/Features/jumper/ServiceDetailsFeature/bloc/controller/accept_job_controller.dart';
+import 'package:jumper/src/Features/jumper/ServiceDetailsFeature/bloc/controller/fetch_App_features_controller.dart';
+import 'package:jumper/src/Features/jumper/ServiceDetailsFeature/bloc/controller/refuse_job_controller.dart';
+import 'package:jumper/src/Features/jumper/ServiceDetailsFeature/bloc/controller/service_details_controller.dart';
+import 'package:jumper/src/Features/jumper/ServiceDetailsFeature/ui/widgets/imports_widgets_service_details.dart';
+import 'package:jumper/src/Ui/appbars/default_appbar.dart';
+import 'package:jumper/src/Ui/buttons/custom_rounded_button.dart';
+import 'package:jumper/src/Ui/listview/custom_listview.dart';
+import 'package:jumper/src/Ui/scaffold/default_scaffold.dart';
+import 'package:jumper/src/Ui/tab_bar/colored_tapbar.dart';
+import 'package:jumper/src/Ui/text/custom_text.dart';
+
+part 'job_app_accepted_screen.dart';
+part 'service_details_screen.dart';

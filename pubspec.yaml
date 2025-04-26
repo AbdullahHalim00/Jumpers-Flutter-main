@@ -1,0 +1,124 @@
+name: jumper
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+16
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  #================= Responsive ==============
+  flutter_screenutil: ^5.6.1
+  #================= Styling =================
+  font_awesome_flutter: ^10.4.0
+  cupertino_icons: ^1.0.5
+  animations: ^2.0.7
+  lottie: ^2.2.0
+  animated_text_kit: ^4.2.2
+  expandable: ^5.0.1
+  smooth_page_indicator: ^1.0.1
+  fluttertoast: ^8.2.1
+  # keyboard_visibility: ^0.5.2
+  #================= Basic ===================
+  get: ^4.6.5
+  device_info_plus: ^8.1.0
+  intl: ^0.18.0
+  #================= Network =================
+  dio: ^4.0.4
+  flutter_offline: ^2.1.0
+  # connectivity_plus: ^3.0.3
+  cached_network_image: ^3.2.3
+  device_preview:  ^1.1.0
+  #================= Local ===================
+  get_storage: ^2.0.3
+  hive: ^2.2.3
+  #================= Loading =================
+  flutter_spinkit: ^5.1.0
+  loading_animation_widget: ^1.2.0+4
+  shimmer: ^2.0.0
+  flutter_staggered_animations: ^1.1.1
+  photo_view: ^0.14.0
+#  workmanager: ^0.4.1
+  #================= Features ================
+  qr_flutter: ^4.0.0
+  url_launcher: ^6.1.9
+  image_picker: ^0.8.6+2
+  file_picker: ^5.2.5
+  country_code_picker: ^2.0.2
+  pin_code_fields: ^7.4.0
+  flutter_barcode_scanner: ^2.0.0
+  flutter_rounded_date_picker: ^3.0.2
+  syncfusion_flutter_datepicker: ^20.4.50
+  flutter_rating_bar: ^4.0.1
+  #================= Location ===============
+  google_maps_flutter: ^2.2.5 #^2.2.3
+  geolocator: ^9.0.2
+  google_api_availability: ^3.0.1
+  location: ^4.4.0
+  geocoding: ^2.0.5
+  google_place: ^0.4.7
+   #================= Firebase ==============
+  firebase_core: ^2.6.1
+  firebase_auth: ^4.2.8
+  firebase_messaging: ^14.2.4
+  cloud_firestore: ^4.4.2
+  flutter_local_notifications: ^13.0.0
+  #================= more ===================
+#  flutter_keyboard_visibility: ^5.2.0
+  audioplayers: ^3.0.1
+  emoji_picker_flutter: ^1.5.2
+  flutter_downloader: ^1.10.2
+  permission_handler: ^10.2.0
+  path_provider: ^2.0.12
+
+  #================= Chat ===================
+  pusher_channels_flutter: ^2.1.0
+  shared_preferences: ^2.0.17
+  webview_flutter: ^4.2.0
+  pusher_client: ^2.0.0
+  flutter_html: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.1
+  carousel_slider: ^4.2.1
+
+# The fol lowing section is specific to Flutter.
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+#    - assets/app_icon/
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+    - assets/lottie/
+    - assets/audio/
+
+
+
+  fonts:
+    - family: Somar
+      fonts:
+        - asset: assets/fonts/Somar-Thin.otf
+        - asset: assets/fonts/Somar-ExtraLight.otf
+        - asset: assets/fonts/Somar-Light.otf
+        - asset: assets/fonts/Somar-Medium.otf
+        - asset: assets/fonts/Somar-Regular.otf
+        - asset: assets/fonts/Somar-ExtraBold.otf
+#        - asset: assets/fonts/Somar-Bold.otf
+#        - asset: assets/fonts/Somar-Black.otf
+          weight: 700
+
